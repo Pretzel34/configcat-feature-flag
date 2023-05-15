@@ -36,3 +36,18 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 # configcat-feature-flag
 
 Feature flags but specifically for configcat
+
+## Pro's and cons of configcat
+
+- configcat has alot of the same functionality as happykit
+- comes down to preference I believe on implementing
+- -Pros:
+  Single command to install a package and establish connection where happykit utilizes env file to identify location
+  Dashboard to watch multiple flags - Same for Happykit
+  Ability to invite team members into the dashboard window and create their own flags
+  Happykit established a dashbpard view from Github account
+  Can add enviroments from configcat where as happykit only has production, preview, and development enviroments
+  Configcat has a config files where you can store config values based off of the enviroment you are running
+  Looks similar to Datadog in recording the flags and who uses them
+  Configcat has more integrations into datadog, jira, slack, etc
+  has a VS code extension for recognizing configcat commands
